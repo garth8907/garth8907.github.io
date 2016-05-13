@@ -259,7 +259,7 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  color: #292929;
+  color: #ffffff;
 }
 h1,
 .h1 {
@@ -425,7 +425,7 @@ a {
 }
 a:hover {
   color: #398f5d;
-  text-decoration: none;
+  text-decora-on: none;
 }
 .label {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -454,7 +454,7 @@ blockquote {
   font-weight: 300;
 }
 .bg-secondary blockquote {
-  background: #fff;
+  background: #000000;
   border-color: #47b475;
 }
 blockquote .author {
@@ -686,7 +686,7 @@ footer.bg-dark li,
 /*!---------- 6. BUTTONS ----------*/
 .btn {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 2px solid #47b475;
+  border: 0px solid #400080;
   padding: 0 26px;
   height: 40px;
   min-width: 150px;
@@ -696,7 +696,7 @@ footer.bg-dark li,
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 0;
-  color: #47b475;
+  color: #400080;
   text-align: center;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -709,7 +709,7 @@ footer.bg-dark li,
   margin-right: 0;
 }
 .btn:hover {
-  background: #47b475;
+  background: #400080;
   color: #fff;
 }
 .btn-icon {
@@ -733,8 +733,8 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-icon.btn-sm {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   line-height: 29px;
   font-size: 13px;
   min-width: 0;
@@ -747,7 +747,7 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-filled {
-  background: #0000ff;
+  background: #400080;
   color: #fff !important;
 }
 .btn-filled:hover {
@@ -791,7 +791,7 @@ body.btn-rounded .btn {
   color: #fff;
 }
 .btn:visited {
-  color: #47b475;
+  color: #ff0000;
 }
 .btn-white:visited,
 .btn:visited:hover {
@@ -1773,8 +1773,8 @@ input[type="submit"],
 button[type="submit"] {
   height: 50px;
   line-height: 48px;
-  border: 2px solid #47b475;
-  background: #47b475;
+  border: 2px solid #400080;
+  background: #400080;
   color: #fff;
   width: 100%;
   font-size: 16px;
@@ -1959,7 +1959,7 @@ form.thirds button {
 }
 form.halves input,
 form.halves button {
-  width: 46%;
+  width: 100%
   float: left;
   margin-right: 2.5%;
   margin-bottom: 16px;
@@ -4367,7 +4367,7 @@ video {
   position: relative;
 }
 .image-edge{
-  background: rgb(0, 0, 0);
+  background-color: #000000;
 }
 .image-edge .container div[class*='col-'] {
   position: absolute;
