@@ -4367,7 +4367,7 @@ video {
   position: relative;
 }
 .image-edge{
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 .image-edge .container div[class*='col-'] {
   position: absolute;
